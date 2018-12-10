@@ -2,7 +2,6 @@ import telebot
 from telebot.types import Message
 import os 
 
-#TOKEN = '702156751:AAEBEQyrkY-wwvOuEileZ02CxmfMKG4RHCU'
 TOKEN = os.environ['TOKEN']
 bot = telebot.TeleBot(TOKEN)
 
